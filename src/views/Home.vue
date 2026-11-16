@@ -188,9 +188,9 @@
         </div>
       </div>
     </div>
-    <div class="box2">
+    <!-- <div class="box2">
       <div class="title">资质证书</div>
-    </div>
+    </div> -->
     <div class="box2">
       <div class="title">企业文化</div>
       <div class="qywh">
@@ -231,9 +231,9 @@
         </div>
       </div>
     </div>
-    <div class="box2">
+    <!-- <div class="box2">
       <div class="title">典型产品</div>
-    </div>
+    </div> -->
     <div class="box2">
       <div class="title">应用领域</div>
       <div class="field">
@@ -263,9 +263,9 @@
         </div>
       </div>
     </div>
-    <div class="box2">
+    <!-- <div class="box2">
       <div class="title">客户群体</div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script setup></script>
