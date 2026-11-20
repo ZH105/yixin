@@ -9,7 +9,7 @@
             src="@/assets/img/logo.png"
             height="50"
           />
-          <span class="name">安徽壹鑫</span>
+          <span class="name">Yixon</span>
         </div>
       </el-col>
       <el-col :span="18" style="margin-top: 10px">
@@ -20,8 +20,12 @@
           active-text-color="#409eff"
           :router="true"
         >
-          <el-menu-item index="index">首页</el-menu-item>
-          <!-- <el-menu-item index="index2">公司介绍</el-menu-item> -->
+          <el-menu-item index="index">About Yixon</el-menu-item>
+          <el-menu-item index="capacity">Capacity</el-menu-item>
+          <el-menu-item index="qualityAssurance"
+            >Quality Assurance</el-menu-item
+          >
+          <el-menu-item index="typicalProducts">Typical Products</el-menu-item>
         </el-menu>
       </el-col>
     </el-row>

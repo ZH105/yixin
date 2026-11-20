@@ -7,16 +7,20 @@
         src="@/assets/img/logo.png"
         height="50"
       />
-      <span class="name">安徽壹鑫</span>
+      <span class="name">Yixon</span>
     </div>
     <div class="info-box">
       <div class="info-item">
-        <div class="info-tab">公司地址</div>
-        <div>安徽省池州市青阳县木瓜山路木镇工业园区</div>
+        <div class="info-tab">address</div>
+        <div>
+          Mu Towm Industrial Park, Muguashan Road, Qingyang country,<br />
+          Chizhou,Anhui,242800,China
+        </div>
       </div>
       <div class="info-item">
         <div class="info-tab">联系方式</div>
-        <div>电话：123456789</div>
+        <div>电话：0566-258966</div>
+        <div>手机：+86 18588223336</div>
         <div>邮箱：123456789@qq.com</div>
       </div>
     </div>
