@@ -29,12 +29,12 @@
     <div class="box2">
       <div class="title">Recognition</div>
       <div class="recognition">
-        <img src="@/assets/img/Recognition1.png" alt="" />
-        <img src="@/assets/img/Recognition2.png" alt="" />
-        <img src="@/assets/img/Recognition3.png" alt="" />
-        <img src="@/assets/img/Recognition4.png" alt="" />
-        <img src="@/assets/img/Recognition5.png" alt="" />
-        <img src="@/assets/img/Recognition6.png" alt="" />
+        <img src="@/assets/img/recognition1.png" alt="" />
+        <img src="@/assets/img/recognition2.png" alt="" />
+        <img src="@/assets/img/recognition3.png" alt="" />
+        <img src="@/assets/img/recognition4.png" alt="" />
+        <img src="@/assets/img/recognition5.png" alt="" />
+        <img src="@/assets/img/recognition6.png" alt="" />
       </div>
     </div>
     <div class="box2">
