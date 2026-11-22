@@ -14,31 +14,25 @@
       </el-col>
       <el-col :span="18" style="margin-top: 10px">
         <el-menu
-          :default-active="activeIndex"
+          :default-active="$route.path"
           class="el-menu-demo"
           mode="horizontal"
-          active-text-color="#409eff"
+          active-text-color="#1f2f7c"
+          @select="handleSelect"
           :router="true"
         >
-          <el-menu-item index="index">About Yixon</el-menu-item>
-          <el-menu-item index="capacity">Capacity</el-menu-item>
-          <el-menu-item index="qualityAssurance"
+          <el-menu-item index="/index">Index</el-menu-item>
+          <el-menu-item index="/aboutYixon">About Yixon</el-menu-item>
+          <el-menu-item index="/capacity">Capacity</el-menu-item>
+          <el-menu-item index="/qualityAssurance"
             >Quality Assurance</el-menu-item
           >
-          <el-menu-item index="typicalProducts">Typical Products</el-menu-item>
+          <el-menu-item index="/typicalProducts">Typical Products</el-menu-item>
         </el-menu>
       </el-col>
     </el-row>
   </div>
 </template>
-<script setup>
-const props = defineProps({
-  activeIndex: {
-    type: String,
-    default: "index",
-  },
-});
-</script>
 <style scoped lang="less">
 .header {
   height: 84px;
@@ -102,6 +96,14 @@ const props = defineProps({
 }
 
 .el-menu-item:hover {
+  background-color: #ffffff !important;
+}
+
+.el-menu--horizontal > .el-menu-item.is-active {
+  border-bottom: 4px solid #1f2f7c !important;
+}
+
+.el-menu--horizontal .el-menu-item:not(.is-disabled):focus {
   background-color: #ffffff !important;
 }
 </style>

@@ -13,15 +13,15 @@
       <div class="info-item">
         <div class="info-tab">address</div>
         <div>
-          Mu Towm Industrial Park, Muguashan Road, Qingyang country,<br />
+          Mu Towm Industrial Park, Muguashan Road, Qingyang county,<br />
           Chizhou,Anhui,242800,China
         </div>
       </div>
       <div class="info-item">
-        <div class="info-tab">联系方式</div>
-        <div>电话：0566-258966</div>
-        <div>手机：+86 18588223336</div>
-        <div>邮箱：123456789@qq.com</div>
+        <div class="info-tab">Contact Us</div>
+        <div>0566-258966</div>
+        <div>+86 18588223336</div>
+        <div>alan@yixon-casting.com</div>
       </div>
     </div>
   </div>
@@ -40,10 +40,12 @@
     align-items: center;
     .yixin-logo {
       margin-right: 10px;
+      height: 80px;
     }
     .name {
       color: #fff;
-      font-size: 24px;
+      font-size: 30px;
+      font-weight: 600;
     }
   }
 

@@ -1,6 +1,29 @@
 <template>
   <div class="qualityAssurance-page">
     <div class="box">
+      <div class="title">Certificates</div>
+      <div class="certificates">
+        <img src="@/assets/img/certificates1.png" alt="" />
+        <img src="@/assets/img/certificates2.png" alt="" />
+        <img src="@/assets/img/certificates3.png" alt="" />
+        <img src="@/assets/img/certificates4.png" alt="" />
+        <img src="@/assets/img/certificates5.png" alt="" />
+        <img src="@/assets/img/certificates6.png" alt="" />
+        <img src="@/assets/img/certificates7.png" alt="" />
+        <img src="@/assets/img/certificates8.png" alt="" />
+        <img src="@/assets/img/certificates9.png" alt="" />
+        <img src="@/assets/img/certificates10.png" alt="" />
+      </div>
+    </div>
+    <div class="box">
+      <div class="title">Patent Certificate</div>
+      <div class="certificates">
+        <img src="@/assets/img/patentCertificate1.png" alt="" />
+        <img src="@/assets/img/patentCertificate2.png" alt="" />
+        <img src="@/assets/img/patentCertificate3.png" alt="" />
+      </div>
+    </div>
+    <div class="box">
       <div class="title">Testing Equipments</div>
       <div class="testing-equipment">
         <div>
@@ -22,6 +45,14 @@
         <div>
           <img src="@/assets/img/szbjc.png" alt="" />
           <span>CMM</span>
+        </div>
+        <div>
+          <img src="@/assets/img/impactTestingMachine.png" alt="" />
+          <span>Impact Testing Machine</span>
+        </div>
+        <div>
+          <img src="@/assets/img/EUTM.png" alt="" />
+          <span>Electronic Universal Testing Machine</span>
         </div>
       </div>
     </div>
@@ -60,7 +91,7 @@
       grid-template-columns: repeat(5, 1fr);
       background-color: @primary-color;
       color: #fff;
-      font-size: 30px;
+      font-size: 24px;
       font-weight: 600;
       padding: 30px 20px;
       text-align: center;
@@ -70,6 +101,17 @@
         border-radius: 20px;
         width: 100%;
         height: 280px;
+      }
+    }
+
+    .certificates {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+
+      img {
+        width: 100%;
+        height: 350px;
       }
     }
   }

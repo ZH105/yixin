@@ -1,13 +1,16 @@
 <template>
-  <div class="home-page">
+  <div class="Index-page">
     <div class="box1">
       <!-- <div class="slogan">科技创造价值 壹鑫铸就品质</div> -->
       <div class="company">
         <img src="@/assets/img/qiantai.png" alt="" />
         <div class="introduction">
-          <div class="company-name">安徽壹鑫精密零部件制造有限公司</div>
+          <div class="company-name">
+            YIXON INVESTMENT CASTINGS (ANHUI) Co., LTD.
+          </div>
           <div class="company-address">
-            安徽省池州市青阳县木瓜山路木镇工业园区
+            Mu Town Industrial Park, Muguashan Road,Qingyang county, Chizhou
+            city, Anhui Province,China
           </div>
         </div>
       </div>
@@ -25,8 +28,92 @@
         </div>
       </div>
     </div>
-
     <div class="box2">
+      <div class="title">Factory Overview</div>
+      <div class="box2-value">
+        <div class="value-right">
+          <div class="right-item">
+            <img src="@/assets/img/icon-factory.png" alt="" />
+            <span>Area</span>
+            <span class="value">10000㎡</span>
+          </div>
+          <div class="right-item">
+            <img src="@/assets/img/icon-yuangong.png" alt="" />
+            <span>Workers</span>
+            <span class="value">150+</span>
+          </div>
+          <div class="right-item">
+            <img src="@/assets/img/icon-channeng.png" alt="" />
+            <span>Capacity</span>
+            <span class="value">3000 Tons</span>
+          </div>
+          <div class="right-item">
+            <img src="@/assets/img/icon-zhongliang.png" alt="" />
+            <span>Product Unit</span>
+            <span class="value">0.5-200kg</span>
+          </div>
+          <div class="right-item">
+            <img src="@/assets/img/icon-gaojingdu.png" alt="" />
+            <span>Surface Roughness</span>
+            <span class="value">≤Ra6.3</span>
+          </div>
+        </div>
+        <img src="@/assets/img/factory.png" alt="" />
+      </div>
+    </div>
+    <div class="box2">
+      <div class="title">Capacity</div>
+      <div class="capacity">
+        <div class="capacity-item">
+          <div class="capacity-item-img">
+            <img src="@/assets/img/dewaxing1.png" alt="" />
+          </div>
+          <div>Dewaxing</div>
+        </div>
+        <div class="capacity-item">
+          <div class="capacity-item-img">
+            <img src="@/assets/img/thickLiquid1.png" alt="" />
+            <img src="@/assets/img/thickLiquid2.png" alt="" />
+          </div>
+          <div>Thick Liquid</div>
+        </div>
+        <div class="capacity-item">
+          <div class="capacity-item-img">
+            <img src="@/assets/img/shotBlasting1.png" alt="" />
+            <img src="@/assets/img/shotBlasting2.png" alt="" />
+          </div>
+          <div>Shot Blasting</div>
+        </div>
+        <div class="capacity-item">
+          <div class="capacity-item-img">
+            <img src="@/assets/img/heatTreatment1.png" alt="" />
+          </div>
+          <div>Heat Treatment</div>
+        </div>
+      </div>
+    </div>
+    <div class="box2">
+      <div class="title">Service</div>
+      <div class="service-scope">
+        <div>
+          <img src="@/assets/img/jmzz.png" alt="" />
+          <div>Investment Casting</div>
+        </div>
+        <div>
+          <img src="@/assets/img/jjg.png" alt="" />
+          <div>Machining</div>
+        </div>
+        <div>
+          <img src="@/assets/img/3Ddy.png" alt="" />
+          <div>3D Printing</div>
+        </div>
+        <div>
+          <img src="@/assets/img/jsjfzyjcfx.png" alt="" />
+          <div>Simulation and Detection Analysis</div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="box2">
       <div class="title">Recognition</div>
       <div class="recognition">
         <img src="@/assets/img/recognition1.png" alt="" />
@@ -36,8 +123,8 @@
         <img src="@/assets/img/recognition5.png" alt="" />
         <img src="@/assets/img/recognition6.png" alt="" />
       </div>
-    </div>
-    <div class="box2">
+    </div> -->
+    <!-- <div class="box2">
       <div class="title">Customers</div>
       <div class="customer">
         <img src="@/assets/img/Customer1.png" alt="" />
@@ -81,14 +168,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="box2">
-      <div class="title">Video</div>
-      <video class="video" controls src="@/assets/video/video.mp4"></video>
-    </div>
-
-    <!-- <div class="box2">
       <div class="title">Industries</div>
       <div class="field">
         <div class="field-item">
@@ -116,12 +198,15 @@
           <div class="field-title">Automobile</div>
         </div>
       </div>
-    </div> -->
+    </div>
+    <div class="box2">
+      <div class="title">Video</div>
+      <video class="video" controls src="@/assets/video/video.mp4"></video>
+    </div>
   </div>
 </template>
-<script setup></script>
 <style scoped lang="less">
-.home-page {
+.Index-page {
   padding: 100px 0 0 0;
   box-sizing: border-box;
   padding-bottom: 20px;
@@ -155,7 +240,7 @@
         margin-left: 40px;
 
         .company-name {
-          font-size: 50px;
+          font-size: 40px;
         }
         .company-address {
           font-size: 24px;
@@ -296,6 +381,46 @@
       img {
         width: 100%;
         // height: 100px;
+      }
+    }
+
+    .capacity {
+      //   width: 1200px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-top: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .capacity-item {
+        text-align: center;
+        font-size: 30px;
+        color: @primary-color;
+        font-weight: 600;
+        .capacity-item-img {
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 350px;
+            height: 442px;
+          }
+        }
+      }
+    }
+
+    .service-scope {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      font-size: 28px;
+      font-weight: 600;
+      text-align: center;
+      gap: 20px;
+
+      img {
+        width: 100%;
+        border-radius: 20px;
       }
     }
 
